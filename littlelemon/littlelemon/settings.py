@@ -74,6 +74,24 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
+# Configuración para PostgreSQL - Actualmente comentada porque PostgreSQL no está instalado
+# Para usar esta configuración:
+# 1. Instale PostgreSQL desde https://www.postgresql.org/download/windows/
+# 2. Cree una base de datos llamada 'littlelemon'
+# 3. Descomente esta configuración y ajuste los valores según su instalación
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'littlelemon',
+#         'USER': 'postgres',  # Cambie esto por su nombre de usuario de PostgreSQL
+#         'PASSWORD': 'password',  # Cambie esto por su contraseña de PostgreSQL
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
+# Configuración SQLite (predeterminada) - Mantenida hasta que PostgreSQL esté configurado
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
