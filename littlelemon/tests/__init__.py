@@ -1,0 +1,1 @@
+# Este archivo está vacío para que Django reconozca la carpeta tests como un paquete de pruebas
