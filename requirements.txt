@@ -1,0 +1,17 @@
+# Dependencias principales
+Django>=5.1.0,<5.2.0
+djangorestframework>=3.14.0,<3.15.0
+djoser>=2.2.0,<2.3.0
+
+# Base de datos
+psycopg2>=2.9.9,<2.10.0
+
+# Variables de entorno
+python-dotenv>=1.0.0,<1.1.0
+
+# Utilidades
+Pillow>=10.0.0,<10.1.0  # Para manejo de imágenes (si se necesita)
+
+# Desarrollo y pruebas
+pytest>=7.4.0,<7.5.0
+pytest-django>=4.5.2,<4.6.0
